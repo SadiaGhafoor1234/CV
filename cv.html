@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MY CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #0c0808;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #181616;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 2px solid #d9534f;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .header .job-title {
+      color: #d9534f;
+      font-size: 20px;
+    }
+
+    .header p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    section h2 {
+      font-size: 24px;
+      color: #050505;
+      border-bottom: 2px solid #eaeaea;
+      padding-bottom: 10px;
+    }
+
+    .info, .activity {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .info div, .activity div {
+      flex: 1;
+      margin: 10px;
+    }
+
+    .info div h4, .activity div h4 {
+      font-size: 14px;
+      color: #d9534f;
+      margin-bottom: 5px;
+    }
+
+    .info div p, .activity div p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #777;
+    }
+
+    .social-links a:hover {
+      color: #d9534f;
+    }
+
+    .multimedia {
+      margin-top: 20px;
+    }
+
+    iframe, video, audio {
+      width: 100%;
+      max-width: 600px;
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
+      border: 2px solid #ddd;
+    }
+
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+      color: #d9534f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <img src="sadia.jpg" alt="Profile Picture" class="profile-pic">
+      <div>
+        <h1>Sadia Ghafoor</h1>
+        <span class="job-title">Student</span>
+        <p>
+          I am a dedicated final-year student pursuing a Bachelor of Science in Computer Science, 
+          with a strong passion for technology and problem-solving. Alongside my academic journey, 
+          I am also a skilled calligrapher, bringing creativity and attention to detail into both 
+          my technical and artistic pursuits. I am eager to apply my diverse skill set in a dynamic 
+          and growth-oriented environment.
+        </p>
+      </div>
+    </div>
+
+    <!-- Personal Info -->
+    <section>
+      <h2>Personal Info</h2>
+      <div class="info">
+        <div>
+          <h4>Birth</h4>
+          <p>August 25, 2003</p>
+        </div>
+        <div>
+          <h4>Nationality</h4>
+          <p>Pakistan</p>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>English (Native), Urdu, French (Intermediate)</p>
+        </div>
+        <div class="social-links">
+          <h4>Social Links</h4>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+          <a href="https://instagram.com/sadiarajpoot224" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <div class="activity">
+        <div>
+          <h4>Matric</h4>
+          <p>Punjab Danish School and College Chishtian (2017-2019)</p>
+        </div>
+        <div>
+          <h4>Intermediate</h4>
+          <p>Punjab Danish School and College Chishtian (2019-2021)</p>
+        </div>
+        <div>
+          <h4>BS Computer Science</h4>
+          <p>University of Management and Technology, Lahore (2021-Present, 7th Semester)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <div class="activity">
+        <div>
+          <h4>Teacher</h4>
+          <p>Part-time Teacher (Jan 2022 - Dec 2023)</p>
+        </div>
+        <div>
+          <h4>Freelance Calligrapher</h4>
+          <p>Arabic Calligrapher (Feb 2019 - Present)</p>
+        </div>
+        <div>
+          <h4>Student Society Leadership</h4>
+          <p>Member of OPA Fiesta (Mar 2023 - Apr 2024)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section class="Creative Calligraphy">
+      <h2>Creative Calligraphy</h2>
+      <!-- Image -->
+      <img src="img1.jpg " alt="Creative Calligraphy" width="100px" height="100px">
+      <img src="img2.jpg" alt="Creative Calligraphy" width="100px" height="100px">
+      <img src="img3.jpg" alt="Creative Calligraphy" width="100px" height="100px">
+
+      <!-- Audio -->
+      <h3>Motivational Quote</h3>
+      <audio controls>
+        <source src="motivation.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- Video -->
+      <h3>My Video Showcase</h3>
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    
+
+    <!-- Icons Section -->
+    <section>
+      <h2>Icons</h2>
+      <p>
+        <i class="icon">🏆</i> Awarded Best Calligrapher in College
+        <br>
+        <i class="icon">📚</i> Published 3 Research Papers
+      </p>
+    </section>
+  </div>
+</body>
+</html>
